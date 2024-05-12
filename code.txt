@@ -1,0 +1,47 @@
+import UIKit
+
+// Step 1: create a constant
+
+let day = "Monday"
+
+// Step 2: Print the current day
+
+print ("Today is \(day).")
+
+// Step 3: create more constants
+
+let hour = "6"
+let min = "15"
+let period = "PM"
+
+//Step 4: Determine the current time
+
+var time = hour + ":" + min + " " + period
+
+//Step 5 : Print the current time
+
+print ("It´s \(time) on \(day).")
+
+//Step 7: Determine the current time zone
+
+let timeZone = "PST"
+
+//Step 8 : Update the current time
+
+time += " \(timeZone)"
+
+// Step 9 : Print the updated time and current day
+
+print ("It´s \(time) on \(day).")
+
+// Step 10 : Determine the short name for a given day
+
+let shortDay = day.prefix(3)
+
+//Step 11: print the short name of the current day
+
+print ("Today is \(shortDay).")
+
+// Step 12: Print the short name of the current day and the final time
+
+print ("Today is : \(shortDay) Time: \(time).")
